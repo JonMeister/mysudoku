@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11d82b0-5a85-4018-aa98-99cddfe89e90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/view/alert/AlertBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/view/alert/IAlertBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/model/SudokuBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/model/SudokuBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/model/SudokuGames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/model/SudokuGames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/view/GameStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/view/GameStage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jonathan/mysudoku/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jonathan/mysudoku/game-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/jonathan/mysudoku/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/jonathan/mysudoku/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/model/SudokuBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jonathan/mysudoku/model/SudokuLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +89,7 @@
       <updated>1713566209324</updated>
       <workItem from="1713566210467" duration="2649000" />
       <workItem from="1713891449748" duration="9125000" />
-      <workItem from="1714025173406" duration="61258000" />
+      <workItem from="1714025173406" duration="62994000" />
     </task>
     <servers />
   </component>

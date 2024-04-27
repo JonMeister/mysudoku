@@ -1,5 +1,5 @@
 package com.jonathan.mysudoku.controller;
-import com.jonathan.mysudoku.model.SudokuBoard;
+import com.jonathan.mysudoku.model.SudokuLogic;
 import com.jonathan.mysudoku.model.SudokuGames;
 import com.jonathan.mysudoku.view.alert.AlertBox;
 import javafx.event.ActionEvent;
@@ -70,17 +70,17 @@ public class GameController {
         String notFocusedTextfield="-fx-background-color: #A66617;"+"-fx-text-fill: #ffffff";
         int [][] initialGame=sudokuGame.getGame();
         int index=0;
-        int aux;
+        int numberOfSudokuGame;
         for(int i=0;i<9;i++){
             for(int j=0;j<9;j++){
                 TextField textField=(TextField) sudokuGridPane.getChildren().get(index);
                 String existingStyle=textField.getStyle();
-                aux=initialGame[i][j];
+                numberOfSudokuGame=initialGame[i][j];
                 textField.setFont(font);
                 textField.setEditable(false);
 
-                if(aux!=0) {
-                    textField.setText(String.valueOf(aux));
+                if(numberOfSudokuGame!=0) {
+                    textField.setText(String.valueOf(numberOfSudokuGame));
                     textField.setMouseTransparent(true);
                     textField.setFocusTraversable(false);
                     textField.setStyle(existingStyle+"-fx-text-fill: #d0caca;"+"-fx-background-color: #A66617 ");
@@ -166,7 +166,6 @@ public class GameController {
     void onClickCheckGame(ActionEvent event) {
         int[][] matrix=new int[9][9];
         int index=0;
-        int number;
         for(int i=0;i<9;i++){
             for(int j=0;j<9;j++){
                 TextField textField=(TextField) sudokuGridPane.getChildren().get(index);
@@ -175,8 +174,8 @@ public class GameController {
                 index++;
             }
         }
-        SudokuBoard sudokuBoard=new SudokuBoard(matrix);
-        int result=sudokuBoard.checkGame();
+        SudokuLogic sudokuLogic =new SudokuLogic(matrix);
+        int result= sudokuLogic.checkGame();
         switch (result){
             case 1:
                 new AlertBox().showInfo("Sudoku","¡Revisa de nuevo!","Es posible que tengas números repetidos de manera horizontal y/o vertical.");

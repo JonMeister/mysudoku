@@ -7,7 +7,7 @@ import java.util.Set;
  * @author Jonathan Aristizabal
  * @version 1.0
  */
-public class SudokuBoard {
+public class SudokuLogic {
     /**
      * int[][] matrix that will storage the game played by the user in the UI.
      */
@@ -21,7 +21,7 @@ public class SudokuBoard {
      * Constructor that takes a 2D integer array representing the current state of the Sudoku board.
      * @param matrix The 2D integer array representing the Sudoku board.
      */
-    public SudokuBoard(int[][] matrix){
+    public SudokuLogic(int[][] matrix){
         sudokuCells=matrix;
     }
 
