@@ -10,7 +10,10 @@ module com.jonathan.mysudoku {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires annotations;
+
 
     opens com.jonathan.mysudoku to javafx.fxml;
+    opens com.jonathan.mysudoku.controller to javafx.fxml;
     exports com.jonathan.mysudoku;
 }
